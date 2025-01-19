@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# BuildingManagementSystem
-=======
-
->>>>>>> safe
+Building Management System
+-Laravel
+-Tailwind
