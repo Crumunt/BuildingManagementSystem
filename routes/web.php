@@ -17,3 +17,7 @@ Route::get('/reset', function() {
 Route::get('/admin-dashboard', function () {
     return view('admin-dashboard.index');
 })->name('admin-dashboard');
+
+Route::get('/projects-view', function() {
+    return view('admin-dashboard.projects');
+})->name('admin-project-view');
