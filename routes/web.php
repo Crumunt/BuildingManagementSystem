@@ -21,3 +21,7 @@ Route::get('/admin-dashboard', function () {
 Route::get('/projects-view', function() {
     return view('admin-dashboard.projects');
 })->name('admin-project-view');
+
+Route::get('/chats', function() {
+    return view('admin-dashboard.message');
+})->name('admin-message-view');
